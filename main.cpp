@@ -27,9 +27,9 @@ ll C(ll n, ll r, ll MOD)
     if(r!=0 && r!=n)
  return (fi[n]*((fin[r] * fin[n-r]) % MOD)) % MOD;
    else
-    return 1ll;
+    return (1ll);
 }
-void solve()
+void solve(void)
 {
     fi[0] = 1ll;
     for(ll i = 1 ; i <= 300000ll ; i++)
